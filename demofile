@@ -5,12 +5,7 @@ tools
 		maven 'MAVEN_HOME'
 	}
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout your source code from version control
-                 git url: 'https://github.com/SreeH-star/maven-pipeline-may4.git'
-            }
-        }
+ 
         stage('Build') {
             steps {
                 // Use Maven to build your project
